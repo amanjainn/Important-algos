@@ -2,10 +2,7 @@
 Name - Aman Jain
 Date - 24-06-2020
 */
-/*
-Name - Aman Jain
-Date - 24-06-2020
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
