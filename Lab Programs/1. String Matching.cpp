@@ -34,7 +34,8 @@ int stringMatch( string str, string pat){
 
 int main(){
  string str,pat;
- cin>>str>>pat;
+ getline(cin,str);
+ getline(cin,pat);
 
   if(stringMatch(str,pat)==-1)
     cout<<"Match failed"<<endl;
