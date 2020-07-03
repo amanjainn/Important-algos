@@ -9,12 +9,13 @@ Time Complexity of the below program is O(V+E) using adjacency list.
 
 */
 
+
 #include<bits/stdc++.h>
 using namespace std;
 
 void dfs(vector<int> list[], int visited[], int start){
     visited[start]=1;
-    cout<<start<<endl;
+    cout<<start<<" ";
 
     vector<int> :: iterator itr;
 
@@ -23,6 +24,8 @@ void dfs(vector<int> list[], int visited[], int start){
           dfs(list,visited,*itr);
     }
 }
+
+
 
 int main(){
     int v,e;
