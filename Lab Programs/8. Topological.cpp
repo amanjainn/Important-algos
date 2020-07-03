@@ -62,7 +62,6 @@ void topologicalSort(vector<int> Graph[],int n){
            }
            count++; 
     }
-
     if(count!=n){
         cout<<"Graph is not DAG"<<endl;
         return ;
