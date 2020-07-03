@@ -7,8 +7,8 @@
 
 Time complexity :  Overall Time complexity O(n*m)
 
-1. Best Case O(m) (where m is the length of the pattern) -> Total number of comparisions (m)
-2. Worst Case O(n*m) (Where n is the  length of the string and m is the length of the pattern)  -> total numberof comparisions  (n-m+1)
+1. Best Case O(m) (where m is the length of the pattern) -> Total number of comparisions (m) ->When string is found in the first index
+2. Worst Case O(n*m) (Where n is the  length of the string and m is the length of the pattern)  -> total numberof comparisions  (n-m+1) ->When string is not found
 
 */
 
