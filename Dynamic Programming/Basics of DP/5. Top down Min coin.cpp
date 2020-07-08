@@ -2,7 +2,7 @@
 Name : Aman Jain
 Date : 05-07-2020
 
-Question-> Top down Min coins to one
+Question-> Top down Min coins to change
 
 Time complexity :  O(n*t) 
 Space Complexity : O(n) 
