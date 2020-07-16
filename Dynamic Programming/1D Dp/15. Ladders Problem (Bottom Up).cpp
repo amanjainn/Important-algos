@@ -19,18 +19,18 @@ Space Complexity : O(n)
 using namespace std;
 #define mod 1000000007
 long long ladders(int n,long long dp[],int k){
-    if(n<0)
-    return 0;
-    if(n==0 || n==1)
-    return 1;
-    if(dp[n]!=0){
-        return dp[n];
-    }
+    dp[0]=dp[1]=1;
     long long  ans=0;
-    for(int i=k; i>0 ;i--)
-    ans+=ladders(n-i,dp,k);
-    dp[n]=ans;
-    return dp[n]%mod;
+    for(int i=2; i<=n ; i++){
+        ans=0;
+       for(int j=1; j<=k ;j++){
+         if(i-j<0)
+         continue;
+         ans+=dp[i-j]%mod;
+       }
+        dp[i]=ans%mod;
+    }
+    return dp[n];
 }
 
 int main(){
