@@ -4,8 +4,6 @@ using namespace std;
 #define ll long long
 
 
-
-
 ll inverseMod(ll a, ll m) 
 {   ll m0 = m, t, q; 
     ll x0 = 0, x1 = 1;  
@@ -25,7 +23,6 @@ ll inverseMod(ll a, ll m)
     return x1; 
 } 
 
-
 ll chineseRem(ll num[],ll rem[],int n){
     ll N=1;
     for(int i=0;  i<n  ;i++){
@@ -40,7 +37,6 @@ ll chineseRem(ll num[],ll rem[],int n){
     }
     return result%N;
 }
-
 int main(){
     int n;
     cin>>n;
