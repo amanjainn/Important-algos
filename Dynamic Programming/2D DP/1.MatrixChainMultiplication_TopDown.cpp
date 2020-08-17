@@ -1,3 +1,9 @@
+/*
+Time complexity- O(N^3)
+Space Complexity- O(N^2)
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
